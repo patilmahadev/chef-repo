@@ -1,0 +1,10 @@
+{
+  "name": "dev",
+  "default_attributes": {
+    "tomcat": {
+      "source": "http://www-eu.apache.org/dist/tomcat/tomcat-7/v7.0.82/bin/apache-tomcat-7.0.82.tar.gz",
+      "base_dir": "/mnt/dev",
+      "java": "java-1.7.0-openjdk"
+    }
+  }
+}

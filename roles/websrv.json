@@ -1,0 +1,7 @@
+{
+  "name": "websrv",
+  "run_list": [
+    "recipe[apache]",
+    "recipe[tomcat]"
+  ]
+}
