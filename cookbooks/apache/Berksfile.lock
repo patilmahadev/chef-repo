@@ -1,0 +1,11 @@
+DEPENDENCIES
+  apache
+    path: .
+    metadata: true
+
+GRAPH
+  apache (0.1.0)
+    windows (~> 3.4.0)
+  ohai (5.2.0)
+  windows (3.4.0)
+    ohai (>= 4.0.0)
