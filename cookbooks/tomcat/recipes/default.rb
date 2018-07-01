@@ -7,6 +7,14 @@
 tomcat_tar = File.basename(URI.parse(node['tomcat']['source']).path)
 tomxat_dir = tomcat_tar[/apache-tomcat-\d+\.\d+\.\d+/]
 
+package 'java-1.7.0-openjdk' do
+  action :remove
+end
+
+package 'java-1.8.0-openjdk' do
+  action :install
+end
+
 package node['tomcat']['java'] do 
   action :install
 end
