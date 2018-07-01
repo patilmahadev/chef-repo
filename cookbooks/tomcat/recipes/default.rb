@@ -11,10 +11,6 @@ package 'java-1.7.0-openjdk' do
   action :remove
 end
 
-package 'java-1.8.0-openjdk' do
-  action :install
-end
-
 package node['tomcat']['java'] do 
   action :install
 end
