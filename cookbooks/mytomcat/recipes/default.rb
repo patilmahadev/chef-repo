@@ -12,6 +12,6 @@ end
 
 mytomcat 'tomcat' do
   tar_url 'http://mirrors.estointernet.in/apache/tomcat/tomcat-9/v9.0.19/bin/apache-tomcat-9.0.19.tar.gz'
-  action :restart
+  action :start
 end
 

@@ -1,7 +1,7 @@
 resource_name :mytomcat
 
 property :tomcat_name, String, name_property: true
-property :tar_url, String
+property :tar_url, String, required: true
 property :installation_dir, String, default: '/opt'
 
 action :install do
